@@ -1,23 +1,28 @@
 ---
 name: User Story
-about: This template is for creating user stories
+about: Create a user story for the agile final project
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**As a** [role]  
- **I need** [function]  
- **So that** [benefit]  
+## User Story
+
+As a **customer**  
+I need **to view the items in my shopping cart**  
+So that **I can confirm my selected products before checkout**
    
- ### Details and Assumptions
- * [document what you know]
+## Details and Assumptions
+
+* The customer must be able to access the shopping cart from the website or app.
+* The cart should show product names, quantities, prices, and the total amount.
+* The customer should be able to review the cart before placing an order.
    
  ### Acceptance Criteria  
    
  ```gherkin
-Given a registered customer is logged into the online store
-When the customer adds an item to their shopping cart
-Then the item should appear in the cart with the correct quantity and price
+Given I am a logged-in customer with items in my shopping cart
+When I open the shopping cart page
+Then I should see all selected items with their quantities, prices, and total cost
  ```
