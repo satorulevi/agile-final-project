@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+Given a registered customer is logged into the online store
+When the customer adds an item to their shopping cart
+Then the item should appear in the cart with the correct quantity and price
  ```
